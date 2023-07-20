@@ -1,0 +1,103 @@
+.main-content {
+    margin: 50px 0;
+    height: 100vh;
+  }
+  
+  .container {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .btn {
+    float: right;
+    margin-bottom: 10px;
+  
+    button {
+      background-color: rgb(4, 204, 4);
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 6px;
+      font-weight: 500;
+  
+      a {
+        color: #fff;
+        font-size: 16px;
+      }
+  
+      span {
+        font-weight: bolder;
+      }
+    }
+  }
+  
+  #stories {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+  
+  #stories td,
+  #stories th {
+    border: 1px solid #bcbcbc;
+    padding: 8px;
+  }
+  
+  #stories tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  #stories tr {
+    transition: 0.3s linear;
+  }
+  
+  #stories tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  #stories th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #111c56;
+    color: white;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  
+    button {
+      border: 0;
+      cursor: pointer;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .delete {
+      color: red;
+      font-size: 25px;
+    }
+  
+    .edit {
+      font-size: 25px;
+      margin-top: 7px;
+      color: rgb(54, 205, 235);
+    }
+  
+    .view {
+      width: 60px;
+  
+      span {
+        background-color: rgb(51, 122, 244);
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        border-radius: 4px;
+      }
+    }
+  }
+  
